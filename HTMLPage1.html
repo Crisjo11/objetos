@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Motorcicle OaxHux</h2>
+
+    <p>Bienvenido, Aqui tenemos lo motocicleta para ti</p>
+
+    <p id="demo"></p>
+
+    <script>
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+
+  }
+  present(x) {
+    return x + "Yamaha Ray ZR - " + this.carname;
+  }
+}
+
+mycar = new Car("Modelo 2020");
+
+
+document.getElementById("demo").innerHTML = mycar.present("1.");
+
+    </script>
+
+</body>
+</html>
